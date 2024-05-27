@@ -1,0 +1,43 @@
+/* Default styles */
+.mat-form-field {
+  width: 100%;
+  margin-bottom: 20px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button[type="submit"] {
+  width: 100%;
+}
+
+/* Responsive styles */
+@media screen and (min-width: 600px) {
+  .mat-form-field {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .mat-form-field {
+    width: 30%;
+  }
+}
+
+/* Adaptive styles */
+@media screen and (max-width: 600px) {
+  .mat-form-field {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .mat-form-field {
+    width: 90%;
+  }
+}
